@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/Helvetica\ Neue\ UltraLight.otf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ UltraLight.ttf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ LTW0697BlkCnObl.otf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ Medium\ Extended.otf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ Medium\ Extended.ttf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.otf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.ttf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.otf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.ttf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ W01\ 87\ Hv\ Cn\ Obl.otf') format('truetype'),
+        url('../fonts/Helvetica\ Neue\ W01\ 87\ Hv\ Cn\ Obl.ttf') format('truetype'),
+        url('../fonts/Helvetica\ NeueLTW0693BlkExtObl.otf') format('truetype'),
+        url('../fonts/Helvetica\ NeueLTW0693BlkExtObl.ttf') format('truetype');
+}

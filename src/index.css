@@ -1,0 +1,181 @@
+@import './fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Helvetica Neue Medium Extended', Arial, sans-serif;
+}
+
+.auth-right {
+    flex: 1 1 10%;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.auth-left {
+    flex: 1 1 0%;
+
+}
+
+.radio-input:checked:enabled {
+    background-color: rgb(255, 255, 255);
+    border: 6px solid rgb(25, 25, 25);
+}
+
+.radio-input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    appearance: none;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    outline: 0px;
+    transition: all 0.2s ease-in-out 0s;
+    background-color: #ffffff;
+    border: 1px solid #c2c2c1;
+}
+
+.radio-label {
+    margin-left: 12px;
+}
+
+.language-button {
+    background: none;
+    border: none;
+    padding: 0px;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.world-icon {
+    margin-right: 8px;
+    line-height: 0;
+}
+
+.language-value {
+    color: rgb(94, 94, 94);
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.down-arrow-icon {
+    line-height: 0;
+    margin-left: 4px;
+}
+
+.dd-close {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: rgba(25, 25, 25, 0.12) 0px 2px 5px 0.5px;
+    padding: 8px 0px;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    transform: scale(0.85);
+    transform-origin: left bottom;
+    will-change: transform, opacity;
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 150ms ease-in 0s, opacity 150ms ease-in 0s, visibility 150ms ease-in 0s;
+    top: 2rem;
+}
+
+.dd-open {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: rgba(25, 25, 25, 0.12) 0px 2px 5px 0.5px;
+    padding: 8px 0px;
+    position: absolute;
+    z-index: 1;
+    transform-origin: left bottom;
+    will-change: transform, opacity;
+    transition: transform 150ms ease-in 0s, opacity 150ms ease-in 0s, visibility 150ms ease-in 0s;
+    top: 2rem;
+    pointer-events: initial;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.dd-option {
+    appearance: none;
+    margin: 0px;
+    border: none;
+    max-width: 100%;
+    text-align: left;
+    color: inherit;
+    cursor: pointer;
+    min-height: 32px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    outline: none;
+    width: 100%;
+    display: flex;
+}
+
+.dd-option-link {
+    color: rgb(25, 25, 25);
+    line-height: 2.4;
+    font-weight: 200;
+    font-size: 16px;
+    padding: 6px 23px;
+}
+
+.language-item:hover {
+    background-color: rgb(240, 240, 240);
+    text-decoration: none;
+}
+
+.checkbox-input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    appearance: none;
+    box-shadow: rgb(25, 25, 25) 0px 0px 0px 1px inset;
+    border-radius: 3px;
+    transition: background-color 0.15s ease 0s;
+}
+
+.checkbox-input:checked {
+    background-color: rgb(25, 25, 25);
+}
+
+.checkbox-input:checked::before {
+    content: "";
+    color: rgb(255, 255, 255);
+    background: url(./assets/check-white.svg) 50% 4px no-repeat;
+    left: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.checkbox-label {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(25, 25, 25);
+}
+
+.checkbox-label {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.checkbox-label a {
+    text-decoration: underline;
+    color: rgb(25, 25, 25);
+}
